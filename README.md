@@ -1,4 +1,4 @@
-Airbnb Short-Term Rental Market Analysis in New York
+# Airbnb Short-Term Rental Market Analysis in New York
 
 This repository contains a data analysis project aimed at understanding the short-term rental market in New York City using Airbnb listing data from 2019. The analysis was conducted for a real estate start-up to provide insights on private rooms. The analysis leverages data from three key sources:
 
@@ -6,7 +6,7 @@ This repository contains a data analysis project aimed at understanding the shor
 - airbnb_room_type.xlsx: Contains information about the descriptions and room types (e.g., shared, private, entire home).
 - airbnb_last_review.tsv: Contains details on the host names and the dates of the last reviews.
 
-Project Goals
+## Project Goals
 
 The analysis aims to provide insights into the following areas:
 
@@ -14,7 +14,7 @@ The analysis aims to provide insights into the following areas:
 - Private Room Listings: Counting the number of private room listings.
 - Average Listing Price: Calculating the average nightly price of all listings.
 
-Key Analysis Steps
+## Key Analysis Steps
 
 - Load and preprocess data from CSV, TSV, and Excel formats.
 - Clean and format dates to calculate the earliest and most recent review.
@@ -22,7 +22,7 @@ Key Analysis Steps
 - Compute the average listing price rounded to two decimal places.
 - Combine the results into a DataFrame for reporting.
 
-Results
+## Results
 
 The final result is a single-row DataFrame (review_dates) that contains:
 
